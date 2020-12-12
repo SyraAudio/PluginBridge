@@ -105,9 +105,9 @@ Coming soon...
 
 1. Install NPM packages
    ```sh
-   npm install
-   \# or
-   yarn install
+   npm install @syra-audio/plugin-bridge
+   # or
+   yarn install @syra-audio/plugin-bridge
    ```
 
 <!-- USAGE EXAMPLES -->
