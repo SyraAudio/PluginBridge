@@ -7,7 +7,11 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
+*** SyraAudio, PluginBridge, twitter_handle, admin@syra.live, Syra PluginBridge, A Typescript module that allows Soul Developers to interact with Syra and provide a UI.
+
+Topics
+Resources
+
 -->
 
 
@@ -20,11 +24,11 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Stargazers][stars-shield]][https://github.com/SyraAudio/PluginBridge/stargazers]
-[![Issues][issues-shield]][https://github.com/SyraAudio/PluginBridge/issues]
-[![MIT License][license-shield]][https://github.com/SyraAudio/PluginBridge/blob/main/LICENSE]
-
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -57,9 +61,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -82,44 +83,32 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
-
+Coming soon...
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+We recommend using [Svelte](https://svelte.dev/) to build plugin UIs for Syra. Although React, Vue, Angular, etc. are fine frameworks, keep in mind that your
+plugin UI will be loaded via an iFrame into Syras DAW. To keep things flowing for your users, plugin UIs should load as
+fast as possible. Svelte compiles to vanilla JavaScript with a minimal footprint keeping the bundle small and fast.
+
+In the near future we will provide a guide to get started with plugin development using Svelte and later that year we
+will provide a svelte component library with sliders, buttons, etc. so you can jump start your ui development.
+
+To check your TTL in production we recommend our performance testing tool.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Coming soon...
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
+1. Install NPM packages
    ```sh
    npm install
+   \# or
+   yarn install
    ```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -133,7 +122,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/SyraAudio/PluginBridge/issues) for a list of proposed features (and known issues).
 
 
 
@@ -160,9 +149,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - admin@syra.live
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/SyraAudio/PluginBridge](https://github.com/SyraAudio/PluginBridge)
 
 
 
@@ -179,15 +168,15 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/SyraAudio/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/SyraAudio/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SyraAudio/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/SyraAudio/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/SyraAudio/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/SyraAudio/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SyraAudio/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/SyraAudio/repo/issues
+[license-shield]: https://img.shields.io/github/license/SyraAudio/repo.svg?style=for-the-badge
+[license-url]: https://github.com/SyraAudio/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
+[linkedin-url]: https://linkedin.com/in/SyraAudio
