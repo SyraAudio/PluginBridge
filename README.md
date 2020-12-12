@@ -168,15 +168,15 @@ Project Link: [https://github.com/SyraAudio/PluginBridge](https://github.com/Syr
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/SyraAudio/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/SyraAudio/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SyraAudio/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/SyraAudio/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/SyraAudio/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/SyraAudio/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SyraAudio/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/SyraAudio/repo/issues
-[license-shield]: https://img.shields.io/github/license/SyraAudio/repo.svg?style=for-the-badge
-[license-url]: https://github.com/SyraAudio/repo/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/SyraAudio/PluginBridge/repo.svg?style=for-the-badge
+[contributors-url]: https://github.com/SyraAudio/PluginBridge/repo/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SyraAudio/PluginBridge/repo.svg?style=for-the-badge
+[forks-url]: https://github.com/SyraAudio/PluginBridge/repo/network/members
+[stars-shield]: https://img.shields.io/github/stars/SyraAudio/PluginBridge/repo.svg?style=for-the-badge
+[stars-url]: https://github.com/SyraAudio/PluginBridge/repo/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SyraAudio/PluginBridge/repo.svg?style=for-the-badge
+[issues-url]: https://github.com/SyraAudio/PluginBridge/repo/issues
+[license-shield]: https://img.shields.io/github/license/SyraAudio/PluginBridge/repo.svg?style=for-the-badge
+[license-url]: https://github.com/SyraAudio/PluginBridge/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/SyraAudio
