@@ -83,19 +83,23 @@ Resources
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Coming soon...
+The Syra PluginBridge enables you to communicate with the Syra DAW and provide a custom UI to your plugin.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-We recommend using [Svelte](https://svelte.dev/) to build plugin UIs for Syra. Although React, Vue, Angular, etc. are fine frameworks, keep in mind that your
-plugin UI will be loaded via an iFrame into Syras DAW. To keep things flowing for your users, plugin UIs should load as
-fast as possible. Svelte compiles to vanilla JavaScript with a minimal footprint keeping the bundle small and fast.
+### Traditional Web UI
 
-In the near future we will provide a guide to get started with plugin development using Svelte and later that year we
-will provide a svelte component library with sliders, buttons, etc. so you can jump start your ui development.
+If you want to create a traditional web UI (using frameworks like React or Angular), you have to provide an index.html in your package.
+This will then get loaded by Syra inside an iFrame. If you are using this approach we highly recommend building
+the UI with [Svelte](https://svelte.dev/), since it is a compile-time framework that compiles to a small footprint
+and high performance vanilla JavaScript package.
 
-To check your TTL in production we recommend our performance testing tool.
+### Modern WebGL approach
+
+If you have a lot of real time moving parts in your UI, you might want to consider providing a canvas WebGL based UI instead.
+To connect this to Syra, just provide a JavaScript file which is called worker.js.
+Syra will execute this in a web worker upon start.
 
 ### Prerequisites
 
